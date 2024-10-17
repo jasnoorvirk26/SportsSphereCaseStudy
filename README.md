@@ -89,7 +89,14 @@ The `products` table provides detailed information about the various products of
 - **category**: Product category (e.g., "Electronics", "Clothing").
 - **price**: Price of the product.
 
+## Tools and Technologies Used
+- SQL for data extraction and analysis.
+- Python for sentiment analysis.
+- Power BI for data visualization.
+
+
 ## Data Cleaning Process
+- **File**: `data_cleaning_analysis_by_sql.sql`
 
 ## Customer Details Table
 - Joined the customers and geography tables to create a new table, `customer_details`, ensuring all customer data is linked to their geographical information to avoid a complex data model.
@@ -109,8 +116,22 @@ The `products` table provides detailed information about the various products of
 ## Customer Journey Table
 - Assessed duplicates and null values in the `duration` column of the `customer_journey` table, creating a new table, `cleaned_customer_journey`, to maintain accurate journey data.
 
-##Measures in Power BI
-###Various measures have been created in Power BI to provide insights into the data:
+## Sentiment Analysis in Python
+
+In this section, I conducted sentiment analysis on customer reviews using Python. The analysis involved calculating a sentiment score for each review with the help of the `SentimentIntensityAnalyzer` from the `nltk` library.
+
+### Key Steps:
+
+1. **Sentiment Score Calculation**:
+   - Each review was processed to obtain a sentiment score, which quantifies the emotional tone of the text. This score indicates whether the sentiment expressed is positive, negative, or neutral.
+
+2. **Evaluation of Sentiment Categories**:
+   - Based on the calculated sentiment scores and the accompanying rating for each review, I categorized the sentiments into distinct groups. These categories provide insights into customer opinions and overall satisfaction levels.
+
+For detailed implementation and analysis, please refer to the Jupyter Notebook: `sentiment_analysis.ipynb`.
+
+## Measures in Power BI
+### Various measures have been created in Power BI to provide insights into the data:
 ### 1. Average Rating
 - **Description:** Calculates the average rating given by customers for products.
 - **Formula:** `AVERAGE(RatingColumn)`
@@ -157,7 +178,9 @@ The `products` table provides detailed information about the various products of
 
 ## Power BI Dashboard Creation
 
-I created a comprehensive dashboard using **Power BI** that provides an overview of key metrics, including conversions, engagements, and ratings. The dashboard includes:
+I created a comprehensive dashboard using **Power BI** that provides an overview of key metrics, including conversions, engagements, and ratings. 
+- **File**: `dashboard.pbix`
+The dashboard includes:
 
 - **Overview Page**: 
   - Displays summary metrics for conversions, engagements, and customer ratings.
@@ -211,13 +234,15 @@ This dashboard serves as a valuable tool for stakeholders to monitor performance
 
 ### Insights:
 - **Declining Views**: There has been a year-long decline in customer engagement, with views generally decreasing, except for a peak in April.
+  
      ![Views by Month](https://raw.githubusercontent.com/jasnoorvirk26/SportsSphereCaseStudy/main/views_by_month.png?raw=true)
   
 - **Click-Through Rate**: The click-through rate is at 19.57%, suggesting that engaged users are interacting effectively with certain content despite lower overall clicks and likes.
+  
    ![Views,Clicks,Likes](https://raw.githubusercontent.com/jasnoorvirk26/SportsSphereCaseStudy/main/views_clicks_likes.png?raw=true)
   
  
-- **Content Type Performance**: Blogs drove the most views from March to June, while video content peaked in January and February. Engagement on newsletters and videos is notably lower than that on blogs and social media.
+- **Content Type Performance**: Blogs drove the most views from March to June, while social media content peaked September to December. Engagement on newsletters and videos is notably lower than that on blogs and social media.
   
   ![Views by Content Type](https://raw.githubusercontent.com/jasnoorvirk26/SportsSphereCaseStudy/main/views_by_content_type.png?raw=true)
 
