@@ -188,7 +188,7 @@ This dashboard serves as a valuable tool for stakeholders to monitor performance
 3. **High-Value Products:** 
    - Products priced above **$200** exhibited a significantly lower conversion rate of **1.03%**, suggesting that higher-priced items may require different marketing approaches.
    
-![Conversion Rate by Product Category](https://github.com/username/repository/blob/main/conversion_rate_by_pc.png?raw=true)
+![Conversion Rate by Product Category](https://github.com/jasnoorvirk26/SportsSphereCaseStudy/blob/main/conversion_rate_by_pc.png?raw=true)
   
 
 4. **Checkout Drop-offs:** 
