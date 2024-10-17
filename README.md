@@ -244,7 +244,7 @@ This dashboard serves as a valuable tool for stakeholders to monitor performance
   
 - **Click-Through Rate**: The click-through rate is at 19.57%, suggesting that engaged users are interacting effectively with certain content despite lower overall clicks and likes.
   
-   ![Views,Clicks,Likes](https://raw.githubusercontent.com/jasnoorvirk26/SportsSphereCaseStudy/main/views_clicks_likes.png?raw=true)
+   ![Views,Clicks,Likes](https://raw.githubusercontent.com/jasnoorvirk26/SportsSphereCaseStudy/main/views_likes_clicks.png?raw=true)
   
  
 - **Content Type Performance**: Blogs drove the most views from March to June, while social media content peaked September to December. Engagement on newsletters and videos is notably lower than that on blogs and social media.
