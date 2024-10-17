@@ -203,4 +203,31 @@ This dashboard serves as a valuable tool for stakeholders to monitor performance
    - Investigate and simplify the checkout flow, possibly implementing guest checkout options and clearer shipping cost communications to reduce cart abandonment.
 
 4. **Target High-Value Customers:** 
+   - Develop targeted promotions for high-priced items, including exclusive offers or bundled products that enhance perceived value.
+     
+## Customer Engagement
 
+### Insights:
+- **Declining Views**: There has been a year-long decline in customer engagement, with views generally decreasing, except for a peak in April.
+  
+- **Click-Through Rate**: The click-through rate is at 19.57%, suggesting that engaged users are interacting effectively with certain content despite lower overall clicks and likes.
+ 
+- **Content Type Performance**: Blogs drove the most views from March to June, while video content peaked in January and February. Engagement on newsletters and videos is notably lower than that on blogs and social media.
+
+### Recommendations:
+- **Enhance Content Quality**: Focus on creating engaging and compelling content across all formats to combat declining views. Utilize storytelling and visual elements to boost interaction.
+- **Strengthen Calls to Action**: Improve CTAs within content to encourage higher interaction rates. Effective CTAs can motivate users to click, like, or share.
+- **Leverage High-Performing Content Types**: Increase the frequency of blog posts during peak months and replicate successful topics from the past.
+- **Experiment with Formats**: Refresh video and newsletter formats to make them more appealing, possibly incorporating shorter videos and visually engaging newsletters.
+
+## 3. Customer Reviews and Ratings
+
+### Insights:
+- **Rating Stability**: Customer ratings have averaged around 3.7, falling short of the target rating of 4.0. Positive sentiment prevails with 840 positive reviews, but there are 226 negative reviews indicating areas for improvement.
+- **Common Concerns**: Mixed sentiments are common, with feedback pointing to issues like perceived value for money and unclear instructions.
+
+### Recommendations:
+- **Target Improvement Initiatives**: Identify specific issues in products rated below 3.7 and implement necessary improvements to enhance customer satisfaction.
+- **Enhance Instruction Clarity**: Revise product instructions to improve clarity, potentially using visual aids or video tutorials.
+- **Engage with Customers**: Reach out to customers who left mixed or negative reviews to understand their concerns better and show that their feedback is valued.
+- **Communicate Value Proposition**: Clearly communicate product value in marketing materials to address concerns about being "not worth the money."
