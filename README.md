@@ -109,9 +109,8 @@ The `products` table provides detailed information about the various products of
 ## Customer Journey Table
 - Assessed duplicates and null values in the `duration` column of the `customer_journey` table, creating a new table, `cleaned_customer_journey`, to maintain accurate journey data.
 
-##I have created various measures in PowerBI
-## Measures
-
+##Measures in Power BI
+###Various measures have been created in Power BI to provide insights into the data:
 ### 1. Average Rating
 - **Description:** Calculates the average rating given by customers for products.
 - **Formula:** `AVERAGE(RatingColumn)`
@@ -187,13 +186,14 @@ This dashboard serves as a valuable tool for stakeholders to monitor performance
 3. **High-Value Products:** 
    - Products priced above **$200** exhibited a significantly lower conversion rate of **1.03%**, suggesting that higher-priced items may require different marketing approaches.
    
-![Conversion Rate by Product Category](https://github.com/jasnoorvirk26/SportsSphereCaseStudy/blob/main/conversion_rate_by_pc.png?raw=true)
+![Conversion Rate by Product Category](https://raw.githubusercontent.com/jasnoorvirk26/SportsSphereCaseStudy/main/conversion_rate_by_stage.png?raw=true)
   
+
 
 4. **Checkout Drop-offs:** 
    - A substantial **96.32%** of drop-offs occur during the checkout stage, highlighting a critical area for improvement.
      
-     ![Conversion Rate by Stage](https://github.com/username/repository/blob/main/drop_offs_by_stages.png?raw=true)
+![Conversion Rate by Stage](https://raw.githubusercontent.com/jasnoorvirk26/SportsSphereCaseStudy/main/drop_offs_by_stages.png?raw=true)
    
 
 ### Recommendations:
@@ -213,10 +213,15 @@ This dashboard serves as a valuable tool for stakeholders to monitor performance
 
 ### Insights:
 - **Declining Views**: There has been a year-long decline in customer engagement, with views generally decreasing, except for a peak in April.
+     ![Views by Month](https://raw.githubusercontent.com/jasnoorvirk26/SportsSphereCaseStudy/main/views_by_month.png?raw=true)
   
 - **Click-Through Rate**: The click-through rate is at 19.57%, suggesting that engaged users are interacting effectively with certain content despite lower overall clicks and likes.
+   ![Views,Clicks,Likes](https://raw.githubusercontent.com/jasnoorvirk26/SportsSphereCaseStudy/main/views_clicks_likes.png?raw=true)
+  
  
 - **Content Type Performance**: Blogs drove the most views from March to June, while video content peaked in January and February. Engagement on newsletters and videos is notably lower than that on blogs and social media.
+  
+  ![Views by Content Type](https://raw.githubusercontent.com/jasnoorvirk26/SportsSphereCaseStudy/main/views_by_content_type.png?raw=true)
 
 ### Recommendations:
 - **Enhance Content Quality**: Focus on creating engaging and compelling content across all formats to combat declining views. Utilize storytelling and visual elements to boost interaction.
@@ -227,11 +232,19 @@ This dashboard serves as a valuable tool for stakeholders to monitor performance
 ## 3. Customer Reviews and Ratings
 
 ### Insights:
-- **Rating Stability**: Customer ratings have averaged around 3.7, falling short of the target rating of 4.0. Positive sentiment prevails with 840 positive reviews, but there are 226 negative reviews indicating areas for improvement.
+- **Rating Stability**: Customer ratings have averaged around 3.7, falling short of the target rating of 4.0.
+- Positive sentiment prevails with 840 positive reviews, but there are 226 negative reviews indicating areas for improvement.
+  
+![Reviews by Sentiment Category](https://raw.githubusercontent.com/jasnoorvirk26/SportsSphereCaseStudy/main/sentiment_category.png?raw=true)
+
 - **Common Concerns**: Mixed sentiments are common, with feedback pointing to issues like perceived value for money and unclear instructions.
+  ![Reviews in Mixed Sentiments Count By Price Category](https://raw.githubusercontent.com/jasnoorvirk26/SportsSphereCaseStudy/main/mixed_sentiments.png?raw=true)
 
 ### Recommendations:
 - **Target Improvement Initiatives**: Identify specific issues in products rated below 3.7 and implement necessary improvements to enhance customer satisfaction.
 - **Enhance Instruction Clarity**: Revise product instructions to improve clarity, potentially using visual aids or video tutorials.
 - **Engage with Customers**: Reach out to customers who left mixed or negative reviews to understand their concerns better and show that their feedback is valued.
 - **Communicate Value Proposition**: Clearly communicate product value in marketing materials to address concerns about being "not worth the money."
+
+###Conclusion
+-This analysis provides a detailed overview of SportsSphere's current marketing landscape, highlighting challenges and offering actionable solutions. Implementing these strategies can help drive higher customer engagement, improve conversion rates, and ultimately boost sales performance, enabling SportsSphere to regain its competitive edge in the market.
