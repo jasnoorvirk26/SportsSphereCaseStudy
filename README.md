@@ -185,6 +185,7 @@ This dashboard serves as a valuable tool for stakeholders to monitor performance
 
 3. **High-Value Products:** 
    - Products priced above **$200** exhibited a significantly lower conversion rate of **1.03%**, suggesting that higher-priced items may require different marketing approaches.
+     
    ![High-Value Products](C:\Users\HP\Pictures\Screenshots\Screenshot (1644).png)  
 
 4. **Checkout Drop-offs:** 
