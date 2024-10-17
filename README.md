@@ -21,7 +21,7 @@ SportsSphere is grappling with several key issues:
 - **Objective**: Analyze customer reviews to uncover recurring themes and actionable insights for product and service improvements.
 - **Approach**:  We’ll identify common feedback patterns—both positive and negative—that can guide enhancements in product offerings and customer experience.
 
-# Data Description
+## Data Description
 
 This analysis utilizes a comprehensive dataset comprising six distinct tables, each capturing various dimensions of customer interactions, product offerings, and geographical data. The structure of these tables is as follows:
 
@@ -89,7 +89,7 @@ The `products` table provides detailed information about the various products of
 - **category**: Product category (e.g., "Electronics", "Clothing").
 - **price**: Price of the product.
 
-# Data Cleaning Process
+## Data Cleaning Process
 
 ## Customer Details Table
 - Joined the customers and geography tables to create a new table, `customer_details`, ensuring all customer data is linked to their geographical information to avoid a complex data model.
@@ -170,7 +170,7 @@ I created a comprehensive dashboard using **Power BI** that provides an overview
 
 This dashboard serves as a valuable tool for stakeholders to monitor performance metrics, understand customer behaviors, and drive strategic improvements effectively.
 
-# Insights and Recommendations
+## Insights and Recommendations
 
 ## Conversion Rates
 
@@ -185,9 +185,7 @@ This dashboard serves as a valuable tool for stakeholders to monitor performance
 
 3. **High-Value Products:** 
    - Products priced above **$200** exhibited a significantly lower conversion rate of **1.03%**, suggesting that higher-priced items may require different marketing approaches.
-   
-![Conversion Rate by Product Category](https://raw.githubusercontent.com/jasnoorvirk26/SportsSphereCaseStudy/main/conversion_rate_by_stage.png?raw=true)
-  
+![Conversion Rate by PC_](https://raw.githubusercontent.com/jasnoorvirk26/SportsSphereCaseStudy/main/conversion_rate_by_pc.png)
 
 
 4. **Checkout Drop-offs:** 
@@ -246,5 +244,5 @@ This dashboard serves as a valuable tool for stakeholders to monitor performance
 - **Engage with Customers**: Reach out to customers who left mixed or negative reviews to understand their concerns better and show that their feedback is valued.
 - **Communicate Value Proposition**: Clearly communicate product value in marketing materials to address concerns about being "not worth the money."
 
-###Conclusion
--This analysis provides a detailed overview of SportsSphere's current marketing landscape, highlighting challenges and offering actionable solutions. Implementing these strategies can help drive higher customer engagement, improve conversion rates, and ultimately boost sales performance, enabling SportsSphere to regain its competitive edge in the market.
+### Conclusion:
+- This analysis provides a detailed overview of SportsSphere's current marketing landscape, highlighting challenges and offering actionable solutions. Implementing these strategies can help drive higher customer engagement, improve conversion rates, and ultimately boost sales performance, enabling SportsSphere to regain its competitive edge in the market.
