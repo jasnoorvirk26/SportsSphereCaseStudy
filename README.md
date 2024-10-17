@@ -182,8 +182,7 @@ This dashboard serves as a valuable tool for stakeholders to monitor performance
 2. **Monthly Fluctuations:** 
    - **October** experienced the lowest conversion rate at **6.1%**, indicating a need for reassessing marketing strategies or promotions during this period. Conversely, **December** saw a rebound to **11.4%**, likely due to holiday marketing efforts.
    
-   ![Conversion Rate by Month](https://github.com/username/repository/blob/main/conversion_rate_by_month.png?raw=true)
-
+   ![Conversion Rate by Month](https://raw.githubusercontent.com/jasnoorvirk26/SportsSphereCaseStudy/main/conversion_rate_by_month.png)
 
 3. **High-Value Products:** 
    - Products priced above **$200** exhibited a significantly lower conversion rate of **1.03%**, suggesting that higher-priced items may require different marketing approaches.
