@@ -181,16 +181,21 @@ This dashboard serves as a valuable tool for stakeholders to monitor performance
 
 2. **Monthly Fluctuations:** 
    - **October** experienced the lowest conversion rate at **6.1%**, indicating a need for reassessing marketing strategies or promotions during this period. Conversely, **December** saw a rebound to **11.4%**, likely due to holiday marketing efforts.
-   ![Monthly Fluctuations](path/to/monthly_fluctuations_image.png)  <!-- Update with your image path -->
+   
+   ![Conversion Rate by Month](https://github.com/username/repository/blob/main/conversion_rate_by_month.png?raw=true)
+
 
 3. **High-Value Products:** 
    - Products priced above **$200** exhibited a significantly lower conversion rate of **1.03%**, suggesting that higher-priced items may require different marketing approaches.
-     
-   ![High-Value Products](C:\Users\HP\Pictures\Screenshots\Screenshot (1644).png)  
+   
+![Conversion Rate by Product Category](https://github.com/username/repository/blob/main/conversion_rate_by_pc.png?raw=true)
+  
 
 4. **Checkout Drop-offs:** 
    - A substantial **96.32%** of drop-offs occur during the checkout stage, highlighting a critical area for improvement.
-   ![Checkout Drop-offs](path/to/checkout_dropoffs_image.png)  <!-- Update with your image path -->
+     
+     ![Conversion Rate by Stage](https://github.com/username/repository/blob/main/drop_offs_by_stages.png?raw=true)
+   
 
 ### Recommendations:
 1. **Revamp October Marketing Strategies:** 
