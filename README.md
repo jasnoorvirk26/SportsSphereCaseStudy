@@ -21,6 +21,10 @@ SportsSphere is grappling with several key issues:
 - **Objective**: Analyze customer reviews to uncover recurring themes and actionable insights for product and service improvements.
 - **Approach**:  We’ll identify common feedback patterns—both positive and negative—that can guide enhancements in product offerings and customer experience.
 
+## Dataset
+
+The dataset for this analysis is located in the backup file `data.bak`. Please restore the backup using SQL Server version 16 or higher to access the data.
+
 ## Data Description
 
 This analysis utilizes a comprehensive dataset comprising six distinct tables, each capturing various dimensions of customer interactions, product offerings, and geographical data. The structure of these tables is as follows:
