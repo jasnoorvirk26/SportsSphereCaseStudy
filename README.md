@@ -25,14 +25,14 @@ SportsSphere is grappling with several key issues:
 
 The dataset for this analysis is located in the backup file `data.bak`. Please restore the backup using SQL Server version 16 or higher to access the data.
 
-## Data Description
+### Data Description
 
 This analysis utilizes a comprehensive dataset comprising six distinct tables, each capturing various dimensions of customer interactions, product offerings, and geographical data. The structure of these tables is as follows:
 
-## 1. Customer Journey
+### 1. Customer Journey
 The `customer_journey` table monitors customer interactions with products throughout different stages of the sales funnel. This data is essential for understanding customer engagement and optimizing marketing strategies.
 
-### Columns:
+#### Columns:
 - **journey_id**: Unique identifier for each customer journey record.
 - **customer_id**: Identifier referencing the customer involved in the journey.
 - **product_id**: Identifier for the product being interacted with.
@@ -41,10 +41,10 @@ The `customer_journey` table monitors customer interactions with products throug
 - **action**: Specific action taken by the customer (e.g.,"view", "purchase" ).
 - **duration**: Duration (in seconds) that the customer spent at this stage.
 
-## 2. Engagement Data
+### 2. Engagement Data
 The `engagement_data` table captures customer interactions with marketing content, including social media posts and blogs. This information is critical for evaluating content effectiveness and its impact on product engagement.
 
-### Columns:
+#### Columns:
 - **engagement_id**: Unique identifier for each engagement record.
 - **content_id**: Identifier for the content viewed or clicked.
 - **content_type**: Type of content (e.g., "video", "blogs").
@@ -54,10 +54,10 @@ The `engagement_data` table captures customer interactions with marketing conten
 - **product_id**: Product linked to the engagement.
 - **viewsclickscombined**: Combined metric showing views and clicks for the content.
 
-## 3. Customer Reviews
+### 3. Customer Reviews
 The `customer_reviews` table contains feedback provided by customers for products they have purchased. This data offers valuable insights into customer satisfaction and highlights areas for product improvement.
 
-### Columns:
+#### Columns:
 - **review_id**: Unique identifier for each review.
 - **customer_id**: Identifier for the customer who submitted the review.
 - **product_id**: Identifier for the product being reviewed.
@@ -65,7 +65,7 @@ The `customer_reviews` table contains feedback provided by customers for product
 - **rating**: Customer rating (1-5 stars).
 - **review_text**: Textual content of the customer’s review.
 
-## 4. Customers
+### 4. Customers
 The `customers` table maintains demographic and geographic information about customers. This data facilitates customer segmentation based on attributes such as age, gender, and location, enhancing targeted marketing efforts and personalized experiences.
 
 ### Columns:
@@ -76,18 +76,18 @@ The `customers` table maintains demographic and geographic information about cus
 - **gender**: Gender of the customer.
 - **geography_id**: Identifier referencing the customer's location in the geography table.
 
-## 5. Geography
+### 5. Geography
 The `geography` table associates customer locations with cities and countries, enabling geographic segmentation and analysis of regional customer behavior trends.
 
-### Columns:
+#### Columns:
 - **geography_id**: Unique identifier for each geography record.
 - **city**: Name of the city where the customer resides.
 - **country**: Name of the country where the customer resides.
 
-## 6. Products
+### 6. Products
 The `products` table provides detailed information about the various products offered, including their names, categories, and pricing. This data is essential for analyzing product performance, developing pricing strategies, and understanding customer preferences.
 
-### Columns:
+#### Columns:
 - **product_id**: Unique identifier for each product.
 - **product_name**: Name of the product.
 - **category**: Product category (e.g., "Electronics", "Clothing").
@@ -102,29 +102,29 @@ The `products` table provides detailed information about the various products of
 ## Data Cleaning Process
 - **File**: `data_cleaning_analysis_by_sql.sql`
 
-## Customer Details Table
+### Customer Details Table
 - Joined the customers and geography tables to create a new table, `customer_details`, ensuring all customer data is linked to their geographical information to avoid a complex data model.
 
-## Products Table
+### Products Table
 - Categorized products based on price range (Low, Medium, High) and created a new table, `products_with_price_category`, to clarify product pricing strategies.
   - **Low:** Price < 80
   - **Medium:** Price between 80 and 200
   - **High:** Price > 200
 
-## Customer Reviews Table
+### Customer Reviews Table
 - Cleaned the review text to remove extra spaces from the `review_text` column and created a new table, `cleaned_customer_reviews`, for standardized reviews.
 
-## Engagement Data Table
+### Engagement Data Table
 - Analyzed the `engagement_data` for duplicates and transformed it into `cleaned_engagement_data`, adjusting inconsistencies in content types and extracting views and clicks from the `viewsclickscombined` column.
 
-## Customer Journey Table
+### Customer Journey Table
 - Assessed duplicates and null values in the `duration` column of the `customer_journey` table, creating a new table, `cleaned_customer_journey`, to maintain accurate journey data.
 
-## Sentiment Analysis in Python
+### Sentiment Analysis in Python
 
 In this section, I conducted sentiment analysis on customer reviews using Python. The analysis involved calculating a sentiment score for each review with the help of the `SentimentIntensityAnalyzer` from the `nltk` library.
 
-### Key Steps:
+#### Key Steps:
 
 1. **Sentiment Score Calculation**:
    - Each review was processed to obtain a sentiment score, which quantifies the emotional tone of the text. This score indicates whether the sentiment expressed is positive, negative, or neutral.
@@ -199,9 +199,9 @@ This dashboard serves as a valuable tool for stakeholders to monitor performance
 
 ## Insights and Recommendations
 
-## Conversion Rates
+### Conversion Rates
 
-### Insights:
+#### Insights:
 1. **Overall Performance:** 
    - The overall conversion rate is recorded at **9.6%**, with notable fluctuations across different months.
 
@@ -222,7 +222,7 @@ This dashboard serves as a valuable tool for stakeholders to monitor performance
 ![Conversion Rate by Stage](https://raw.githubusercontent.com/jasnoorvirk26/SportsSphereCaseStudy/main/drop_offs_by_stages.png?raw=true)
    
 
-### Recommendations:
+#### Recommendations:
 1. **Revamp October Marketing Strategies:** 
    - Analyze and adjust marketing campaigns for October to attract customers, possibly through targeted promotions or discounts.
 
@@ -235,9 +235,9 @@ This dashboard serves as a valuable tool for stakeholders to monitor performance
 4. **Target High-Value Customers:** 
    - Develop targeted promotions for high-priced items, including exclusive offers or bundled products that enhance perceived value.
      
-## Customer Engagement
+### Customer Engagement
 
-### Insights:
+#### Insights:
 - **Declining Views**: There has been a year-long decline in customer engagement, with views generally decreasing, except for a peak in April.
   
      ![Views by Month](https://raw.githubusercontent.com/jasnoorvirk26/SportsSphereCaseStudy/main/views_by_month.png?raw=true)
@@ -251,15 +251,15 @@ This dashboard serves as a valuable tool for stakeholders to monitor performance
   
   ![Views by Content Type](https://raw.githubusercontent.com/jasnoorvirk26/SportsSphereCaseStudy/main/views_by_content_type.png?raw=true)
 
-### Recommendations:
+#### Recommendations:
 - **Enhance Content Quality**: Focus on creating engaging and compelling content across all formats to combat declining views. Utilize storytelling and visual elements to boost interaction.
 - **Strengthen Calls to Action**: Improve CTAs within content to encourage higher interaction rates. Effective CTAs can motivate users to click, like, or share.
 - **Leverage High-Performing Content Types**: Increase the frequency of blog posts during peak months and replicate successful topics from the past.
 - **Experiment with Formats**: Refresh video and newsletter formats to make them more appealing, possibly incorporating shorter videos and visually engaging newsletters.
 
-## 3. Customer Reviews and Ratings
+### 3. Customer Reviews and Ratings
 
-### Insights:
+#### Insights:
 - **Rating Stability**: Customer ratings have averaged around 3.7, falling short of the target rating of 4.0.
 - Positive sentiment prevails with 840 positive reviews, but there are 226 negative reviews indicating areas for improvement.
   
@@ -268,11 +268,11 @@ This dashboard serves as a valuable tool for stakeholders to monitor performance
 - **Common Concerns**: Mixed sentiments are common, with feedback pointing to issues like perceived value for money and unclear instructions.
   ![Reviews in Mixed Sentiments Count By Price Category](https://raw.githubusercontent.com/jasnoorvirk26/SportsSphereCaseStudy/main/mixed_sentiments.png?raw=true)
 
-### Recommendations:
+#### Recommendations:
 - **Target Improvement Initiatives**: Identify specific issues in products rated below 3.7 and implement necessary improvements to enhance customer satisfaction.
 - **Enhance Instruction Clarity**: Revise product instructions to improve clarity, potentially using visual aids or video tutorials.
 - **Engage with Customers**: Reach out to customers who left mixed or negative reviews to understand their concerns better and show that their feedback is valued.
 - **Communicate Value Proposition**: Clearly communicate product value in marketing materials to address concerns about being "not worth the money."
 
-### Conclusion:
+## Conclusion:
 - This analysis provides a detailed overview of SportsSphere's current marketing landscape, highlighting challenges and offering actionable solutions. Implementing these strategies can help drive higher customer engagement, improve conversion rates, and ultimately boost sales performance, enabling SportsSphere to regain its competitive edge in the market.
