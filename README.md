@@ -31,6 +31,7 @@ This analysis utilizes a comprehensive dataset comprising six distinct tables, e
 
 ### 1. Customer Journey
 The `customer_journey` table monitors customer interactions with products throughout different stages of the sales funnel. This data is essential for understanding customer engagement and optimizing marketing strategies.
+It encompasses over 4,000 customer journeys.
 
 #### Columns:
 - **journey_id**: Unique identifier for each customer journey record.
@@ -43,6 +44,7 @@ The `customer_journey` table monitors customer interactions with products throug
 
 ### 2. Engagement Data
 The `engagement_data` table captures customer interactions with marketing content, including social media posts and blogs. This information is critical for evaluating content effectiveness and its impact on product engagement.
+It features over 4,000 customer engagements with the marketing content.
 
 #### Columns:
 - **engagement_id**: Unique identifier for each engagement record.
@@ -56,6 +58,7 @@ The `engagement_data` table captures customer interactions with marketing conten
 
 ### 3. Customer Reviews
 The `customer_reviews` table contains feedback provided by customers for products they have purchased. This data offers valuable insights into customer satisfaction and highlights areas for product improvement.
+It includes more than 1,000 reviews.
 
 #### Columns:
 - **review_id**: Unique identifier for each review.
@@ -247,14 +250,13 @@ This dashboard serves as a valuable tool for stakeholders to monitor performance
    ![Views,Clicks,Likes](https://raw.githubusercontent.com/jasnoorvirk26/SportsSphereCaseStudy/main/views_likes_clicks.png?raw=true)
   
  
-- **Content Type Performance**: Blogs drove the most views from March to June, while social media content peaked September to December. Engagement on newsletters and videos is notably lower than that on blogs and social media.
-  
+- **Content Type Performance**:Blog content generated the highest number of views, particularly in April and July. In contrast, engagement from social media and video content remained steady, albeit at a slightly lower level.
   ![Views by Content Type](https://raw.githubusercontent.com/jasnoorvirk26/SportsSphereCaseStudy/main/views_by_content_type.png?raw=true)
 
 #### Recommendations:
 - **Enhance Content Quality**: Focus on creating engaging and compelling content across all formats to combat declining views. Utilize storytelling and visual elements to boost interaction.
 - **Strengthen Calls to Action**: Improve CTAs within content to encourage higher interaction rates. Effective CTAs can motivate users to click, like, or share.
-- **Leverage High-Performing Content Types**: Increase the frequency of blog posts during peak months and replicate successful topics from the past.
+- **Capitalize on Blog Content**: Focus on boosting the frequency of blog posts, especially during historically lower-engagement months (September to December), to drive greater audience interaction.
 - **Experiment with Formats**: Refresh video and newsletter formats to make them more appealing, possibly incorporating shorter videos and visually engaging newsletters.
 
 ### 3. Customer Reviews and Ratings
